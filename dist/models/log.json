@@ -1,0 +1,43 @@
+{
+  "name": "Log",
+  "plural": "logs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {},
+  "properties": {
+    "data": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    },
+    "tabela": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "string"
+    },
+    "antes": {
+      "type": "object"
+    },
+    "depois": {
+      "type": "object"
+    },
+    "mudancas": {
+      "type": "array"
+    },
+    "usuarioId": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

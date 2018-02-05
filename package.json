@@ -1,0 +1,22 @@
+{
+  "name": "@hedsdesign/loopback-log-mixin",
+  "version": "0.0.1",
+  "description": "Mixin integrado ao loopback 3.x que adiciona os logs nas tabelas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoarn/loopback-log-mixin.git"
+  },
+  "keywords": [
+    "loopback", "log", "3.x"
+  ],
+  "author": "Eduardo Miranda Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoarn/loopback-log-mixin/issues"
+  },
+  "homepage": "https://github.com/eduardoarn/loopback-log-mixin#readme"
+}
