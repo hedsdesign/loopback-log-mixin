@@ -1,6 +1,5 @@
 'use strict';
 var _ = require('lodash');
-var loopbackContext = require('loopback-context');
 
 const debug = (valor) => {
   console.log(`log`, valor)
