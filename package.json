@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduardoarn/loopback-log-mixin.git"
+    "url": "git+https://github.com/hedsdesign/loopback-log-mixin.git"
   },
   "keywords": [
     "loopback",
@@ -18,9 +18,9 @@
   "author": "Eduardo Miranda Soares",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eduardoarn/loopback-log-mixin/issues"
+    "url": "https://github.com/hedsdesign/loopback-log-mixin/issues"
   },
-  "homepage": "https://github.com/eduardoarn/loopback-log-mixin#readme",
+  "homepage": "https://github.com/hedsdesign/loopback-log-mixin#readme",
   "dependencies": {
     "lodash": "^4.17.5",
     "util": "^0.10.3"
