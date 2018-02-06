@@ -2,7 +2,7 @@
 var _ = require('lodash');
 
 const debug = (valor) => {
-  console.log(`log`, valor)
+  //console.log(`log`, valor)
 };
 const warn = (options, message) => {
   if (!options.silenceWarnings) {
@@ -141,7 +141,7 @@ module.exports = (Model, bootOptions = {}) => {
   });
 
   Model.observe('after save', (ctx, next) => {
-    console.log('antes', ctx.hookState.isNovo, ctx.hookState.antes)
+    // console.log('antes', ctx.hookState.isNovo, ctx.hookState.antes)
 
     if (options.inserirLog) {
       let registro = {};
