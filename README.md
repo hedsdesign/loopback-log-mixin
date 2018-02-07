@@ -19,16 +19,12 @@ Adicione as propriedade `sources` e `mixins` e a tabela de log no arquivo `serve
 {
   "_meta": {
     "sources": [
-      "loopback/common/models",
-      "loopback/server/models",
-      "../common/models",
-      "./models",
+      ...
       "../node_modules/@hedsdesign/loopback-log-mixin/dist/models",
     ],
     "mixins": [
-      "loopback/common/mixins",
-      "../node_modules/@hedsdesign/loopback-log-mixin/dist/mixins",
-      "../common/mixins"
+     ...
+      "../node_modules/@hedsdesign/loopback-log-mixin/dist/mixins"      
     ]
   },....
   "Log": {
